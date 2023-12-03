@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: row;
+ /*  justify-content: space-around; */
+  align-items: left;
+  gap: 100px;
+  padding: 0rem;
+  min-height: 100vh;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 800px;
+  width: 50%;
+}
+
+.h1 {
+  width: 100%;
+  font-size: 72px;
+  background: linear-gradient(to bottom, #F2CBBD, rgb(57, 56, 56));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.imgContainer {
+  flex: 1; /* Add this line to make imgContainer take up remaining space */
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: #BF846F;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: rgb(37, 37, 37);
+}
+.descrption{
+color: #F2CBBD;
+}
